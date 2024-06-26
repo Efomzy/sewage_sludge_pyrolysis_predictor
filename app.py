@@ -52,7 +52,7 @@ with col4:
   T = st.number_input("Temperature (°C)", 350,1000)
  
 
-if C+H+O+N+S+A >= 95 and C+H+O+N+S+A <= 105 and A+VM+FC >= 95 and A+VM+FC <= 105:
+if C+H+O+N+S+A >= 85 and C+H+O+N+S+A <= 115 and A+VM+FC >= 85 and A+VM+FC <= 115:
 
   Biooil1 = XGB1.predict([[C, H, O, N, S, A, VM, FC, MC, HR, RT, T]])
   Syngas2 = XGB2.predict([[C, H, O, N, S, A, VM, FC, MC, HR, RT, T]])
