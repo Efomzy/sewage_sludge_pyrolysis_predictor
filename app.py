@@ -23,7 +23,7 @@ with col3:
   VM = st.number_input("Volatile Matter (%)", 0.00,75.00)
   
 with col4:
-  HR = st.number_input("Heating Rate (°C/min)", 0.00,130.00)
+  HR = st.number_input("Heating Rate (°C/min)", 5.00,122.00)
   
   
 with col1:
@@ -36,7 +36,7 @@ with col3:
   FC = st.number_input("Fixed Carbon (%)", 0.00,25.00)
 
 with col4:
-  RT = st.number_input("Residence Time (min)", 0.00,130.00)
+  RT = st.number_input("Residence Time (min)", 10.00,120.00)
   
   
 with col1:
